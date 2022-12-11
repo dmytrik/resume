@@ -30,22 +30,72 @@ a {
   display: block;
   text-decoration: none;
 }
-
+.resume__header {
+  background-color: #fff;
+  padding: 10px 20px;
+  @media screen and (min-width: 500px) {
+    display: none;
+  }
+}
+.resume__nav {
+  display: flex;
+  align-items: center;
+}
+.resume__nav-list {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.resume__nav-item {
+  &:not(:first-child) {
+    margin-left: 5px;
+  }
+}
+.resume__burger {
+  width: 30px;
+  height: 30px;
+  fill: #25262e;
+}
+.resume__nav-link {
+  color: #000;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 18px;
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+  &:focus {
+    color: #fff;
+    background-color: #000;
+  }
+}
 .main {
   background-color: #e2e2e2;
 }
 .container {
   width: 1200px;
   margin: 0 auto;
+  @media screen and (max-width: 499px) {
+    width: 350px;
+  }
 }
 .resume__box {
   display: flex;
+  margin: 0 auto;
+  @media screen and (max-width: 499px) {
+    display: block;
+  }
 }
 .resume__aside {
   width: 400px;
   background-color: #25262e;
   padding: 50px 30px;
   color: #fff;
+  @media screen and (max-width: 499px) {
+    display: none;
+  }
 }
 .resume__primary-title {
   font-size: 40px;
@@ -148,15 +198,26 @@ a {
 .resume__information {
   background-color: #fff;
   padding: 110px 40px;
+  @media screen and (max-width: 499px) {
+    padding: 50px 20px;
+  }
 }
 .resume__information-title {
   font-size: 36px;
   line-height: 42px;
+  @media screen and (max-width: 499px) {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 .resume__information-desc {
   margin-top: 20px;
   font-size: 22px;
   line-height: 32px;
+  @media screen and (max-width: 499px) {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 .resume__project {
   margin-top: 30px;
