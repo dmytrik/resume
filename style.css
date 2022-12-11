@@ -1,0 +1,190 @@
+body {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 22px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.main {
+  background-color: #e2e2e2;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.resume__box {
+  display: flex;
+}
+
+.resume__aside {
+  width: 400px;
+  background-color: #25262e;
+  padding: 50px 30px;
+  color: #fff;
+}
+
+.resume__primary-title {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.resume__work-position {
+  margin-top: 25px;
+  font-size: 25px;
+  line-height: 32px;
+}
+
+.resume__img-box {
+  margin-top: 30px;
+}
+
+.resume__contacts {
+  margin-top: 30px;
+}
+
+.resume__aside-title {
+  position: relative;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.resume__line {
+  position: absolute;
+  right: 3px;
+  top: 50%;
+  bottom: 50%;
+  display: block;
+  width: 135px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.resume__contact-list {
+  margin-top: 20px;
+}
+
+.resume__contact-item:not(:first-child) {
+  margin-top: 15px;
+}
+
+.resume__contact-title {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.resume__contact-description {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.resume__social-list {
+  margin-top: 10px;
+}
+
+.resume__social-item:not(:first-child) {
+  margin-top: 5px;
+}
+
+.resume__social-link {
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+}
+.resume__social-link:hover {
+  background-color: orange;
+}
+.resume__social-link:focus {
+  background-color: orange;
+}
+
+.resume__languages {
+  margin-top: 30px;
+}
+
+.resume__languages-list {
+  margin-top: 20px;
+}
+
+.resume__languages-item:not(:first-child) {
+  margin-top: 5px;
+}
+
+.resume_languages-desc {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.resume__tech-skills {
+  margin-top: 30px;
+}
+
+.resume__tech-skills-list {
+  margin-top: 20px;
+}
+
+.resume__tech-skills-item:not(:first-child) {
+  margin-top: 5px;
+}
+
+.resume__tech-skills-desc {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.resume__information {
+  background-color: #fff;
+  padding: 110px 40px;
+}
+
+.resume__information-title {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.resume__information-desc {
+  margin-top: 20px;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.resume__project {
+  margin-top: 30px;
+}
+
+.resume__work {
+  margin-top: 30px;
+}
+
+.resume__education {
+  margin-top: 30px;
+}/*# sourceMappingURL=style.css.map */
