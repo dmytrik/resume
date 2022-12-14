@@ -29,6 +29,7 @@ img {
 a {
   display: block;
   text-decoration: none;
+  color: #000;
 }
 .resume__header {
   background-color: #fff;
@@ -157,6 +158,7 @@ a {
   line-height: 20px;
 }
 .resume__contact-description {
+  color: #fff;
   margin-top: 5px;
   font-size: 14px;
   line-height: 18px;
@@ -165,19 +167,41 @@ a {
   margin-top: 10px;
 }
 .resume__social-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   &:not(:first-child) {
-    margin-top: 5px;
+    margin-top: 10px;
+  }
+  @media screen and(max-width:499px) {
+    justify-content: center;
   }
 }
 .resume__social-link {
   color: #fff;
   font-size: 14px;
   line-height: 18px;
+  padding: 5px;
+  border-radius: 8px;
   &:hover {
-    background-color: orange;
+    background-color: #fff;
+    color: #000;
   }
   &:focus {
-    background-color: orange;
+    background-color: #fff;
+    color: #000;
+  }
+  &:first-child {
+    padding-top: 7px;
+  }
+}
+.resume__social-icon {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+  @media screen and(max-width:499px) {
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -239,6 +263,28 @@ a {
 .resume__project {
   margin-top: 30px;
 }
+.resume__project-item {
+  display: flex;
+  align-items: baseline;
+  margin-top: 10px;
+  @media screen and (max-width: 499px) {
+    flex-wrap: wrap;
+  }
+}
+.resume__project-link {
+  border-radius: 8px;
+  padding: 5px;
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
+.resume__project-desc {
+  font-size: 18px;
+  line-height: 22px;
+  font-style: italic;
+  margin-left: auto;
+}
 .resume__work {
   margin-top: 30px;
 }
@@ -274,4 +320,9 @@ a {
   top: 10px;
   background-color: transparent;
   border: none;
+}
+.close-mobile-icon {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
 }

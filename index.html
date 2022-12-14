@@ -24,7 +24,9 @@
         <div class="resume__box">
           <header class="resume__header">
             <nav class="resume__nav">
-              <img src="./img/burger.svg" alt="burger" class="resume__burger" />
+              <svg class="resume__burger">
+                <use href="./img/icons.svg#burger"></use>
+              </svg>
               <ul class="resume__nav-list">
                 <li class="resume__nav-item">
                   <a href="#project" class="resume__nav-link">Project</a>
@@ -56,39 +58,66 @@
               <ul class="resume__contact-list">
                 <li class="resume__contact-item">
                   <h3 class="resume__contact-title">Phone</h3>
-                  <p class="resume__contact-description">+380995100311</p>
+                  <a
+                    href="tel:+380995100311"
+                    class="resume__contact-description"
+                    >+380995100311</a
+                  >
                 </li>
                 <li class="resume__contact-item">
                   <h3 class="resume__contact-title">Email</h3>
-                  <p class="resume__contact-description">dmysamo@gmail.com</p>
+                  <a
+                    href="mailto:dmysamo@gmail.com"
+                    class="resume__contact-description"
+                    >dmysamo@gmail.com</a
+                  >
                 </li>
                 <li class="resume__contact-item">
                   <h3 class="resume__contact-title">Social</h3>
                   <ul class="resume__social-list">
                     <li class="resume__social-item">
-                      <a href="" class="resume__social-link" target="_blank"
-                        >Telegram</a
-                      >
-                    </li>
-                    <li class="resume__social-item">
-                      <a href="" class="resume__social-link" target="_blank"
+                      <a
+                        href="https://www.linkedin.com/in/dmytro-samoylenko-b1a81525a/"
+                        class="resume__social-link"
+                        target="_blank"
                         >LinkedIn</a
                       >
+                      <svg class="resume__social-icon">
+                        <use href="./img/icons.svg#linkedin"></use>
+                      </svg>
                     </li>
                     <li class="resume__social-item">
-                      <a href="" class="resume__social-link" target="_blank"
+                      <a
+                        href="https://github.com/dmytrik"
+                        class="resume__social-link"
+                        target="_blank"
                         >GitHub</a
                       >
+                      <svg class="resume__social-icon">
+                        <use href="./img/icons.svg#github"></use>
+                      </svg>
                     </li>
                     <li class="resume__social-item">
-                      <a href="" class="resume__social-link" target="_blank"
+                      <a
+                        href="https://www.instagram.com/samojlenkodmitry/"
+                        class="resume__social-link"
+                        target="_blank"
                         >Instagram</a
                       >
+                      <svg class="resume__social-icon">
+                        <use href="./img/icons.svg#instagram"></use>
+                      </svg>
                     </li>
                     <li class="resume__social-item">
-                      <a href="" class="resume__social-link" target="_blank"
+                      <a
+                        href="https://www.facebook.com/dmitry.samojlenko"
+                        class="resume__social-link"
+                        target="_blank"
                         >Facebook</a
                       >
+                      <svg class="resume__social-icon">
+                        <use href="./img/icons.svg#facebook"></use>
+                      </svg>
                     </li>
                   </ul>
                 </li>
@@ -111,7 +140,7 @@
                   </p>
                 </li>
                 <li class="resume__languages-item">
-                  <p class="resume_languages-desc">Ukrainian</p>
+                  <p class="resume_languages-desc">Ukrainian - Native</p>
                 </li>
                 <li class="resume__languages-item">
                   <p class="resume_languages-desc">
@@ -167,46 +196,93 @@
             <div class="resume__summary">
               <h2 class="resume__information-title">SUMMARY</h2>
               <p class="resume__information-desc">
-                I am a Front-End developer looking for a full-time position in a
-                company that's aimed at making both everyday life and business
-                easier, more productive and user-friendly. I have sound
-                knowledge of HTML, CSS, JavaScript, and React. Also, I have
-                hands-on experience in following Agile /Scrum methodology when
-                working in a team. I am a fast learner, responsible, and ready
-                for challenging tasks.
+                I am a Front-End developer, looking for a permanent job in a
+                company that strives to make everyday life and business easier,
+                more productive and more convenient. I have basic knowledge of
+                HTML, CSS, JavaScript and React. At this stage, I am studying
+                Node.js. In the near future, I plan to expand my knowledge by
+                studying TypeScript and React Native. In addition, I have
+                practical experience in applying the Agile/Scrum methodology
+                while working in a team. I am a quick learner, responsible and
+                ready for difficult tasks.
               </p>
             </div>
             <div class="resume__project" id="project">
               <h2 class="resume__information-title">PROJECT EXPERIENCE</h2>
-              <p class="resume__information-desc">
-                Barbershop, Link [HTML, SASS, JS, Parcel] A website with a
-                responsive layout. Role: Team Lead. Build project on github,
-                check for build errors and live page performance. Filmoteka,
-                Link [HTML, SASS, JS, Handlebars, REST API, AJAX, Parcel]
-                Application for choosing a movie. Role: Scrum Master App
-                component with Public and Private routes, AuthPage page logic.
-                Deploy project on Netlify. Pro Test, Link [React, Redux, Axios,
-                Styled Components, Node.js MongoDB] Application for testing
-                knowledge of students who learn QA Creating a MongoDB database.
-                Back-End - end points signUp and signIn and logOut users (route
-                "/ auth"); functions of obtaining 12 random question;
-                development of documentation using swagger. Deploy the project
-                on Heroku
-              </p>
+              <ul class="resume__information-desc">
+                <li class="resume__project-item">
+                  <a
+                    href="https://dmytrik.github.io/html-css-sass/index.html"
+                    target="_blank"
+                    class="resume__project-link"
+                    >WebStudio</a
+                  >
+                  <p class="resume__project-desc">
+                    Independent project after completion of the "HTML, CSS"
+                    block
+                  </p>
+                </li>
+                <li class="resume__project-item">
+                  <a
+                    href="https://olehstarko.github.io/final-HTML-CSS-project/"
+                    target="_blank"
+                    class="resume__project-link"
+                    >Ice Cream</a
+                  >
+                  <p class="resume__project-desc">
+                    Team project on the block "HTML, CSS". The role is a gallery
+                    developer.
+                  </p>
+                </li>
+                <li class="resume__project-item">
+                  <a
+                    href="https://dmytrik.github.io/goit-js-hw-11/"
+                    target="_blank"
+                    class="resume__project-link"
+                    >Image Search</a
+                  >
+                  <p class="resume__project-desc">
+                    Independent project to complete the "Javascript" block
+                  </p>
+                </li>
+                <li class="resume__project-item">
+                  <a
+                    href="https://dmytrik.github.io/finally_project_js_filmoteka/"
+                    target="_blank"
+                    class="resume__project-link"
+                    >Filmoteka</a
+                  >
+                  <p class="resume__project-desc">
+                    Team project at the end of the "JavaScript" unit. Role -
+                    Team Lead.
+                  </p>
+                </li>
+                <li class="resume__project-item">
+                  <a
+                    href="https://dmytrik.github.io/goit-react-hw-08-phonebook"
+                    target="_blank"
+                    class="resume__project-link"
+                    >Phonebook</a
+                  >
+                  <p class="resume__project-desc">
+                    Phonebook web app after React block is finished
+                  </p>
+                </li>
+              </ul>
             </div>
             <div class="resume__work" id="work">
               <h2 class="resume__information-title">WORK EXPERIENCE</h2>
               <p class="resume__information-desc">
-                Travel agency owner Best travel | feb 2018 - nov 2021 website
-                programming: html, css, js photoshop design analytics &
-                automation tour guide & routes create team build & coach smm &
-                target ads
+                Senior seller of non-food products in the Ukrainian company
+                "Epicentr K": 2018 - our time
               </p>
             </div>
             <div class="resume__education" id="education">
               <h2 class="resume__information-title">EDUCATION</h2>
               <p class="resume__information-desc">
-                IT School GoIT (Kyiv) 2020 - 2021 Fullstack Developer
+                Master of the Faculty of System Engineering of the
+                Ivano-Frankivsk National Technical University of Oil and Gas IT
+                School GoIT (Kyiv) 2020 - 2021 Fullstack Developer
               </p>
             </div>
           </div>
@@ -215,7 +291,9 @@
     </main>
     <div class="mobile-backdrop">
       <button class="close-mobile">
-        <img src="./img/cancel-circle.svg" alt="close" />
+        <svg class="close-mobile-icon">
+          <use href="./img/icons.svg#closeMobileBackdropBtn"></use>
+        </svg>
       </button>
       <h1 class="resume__primary-title">DMITRY SAMOYLENKO</h1>
       <p class="resume__work-position">JUNIOR FRONTEND DEVELOPER</p>
@@ -239,29 +317,48 @@
             <h3 class="resume__contact-title">Social</h3>
             <ul class="resume__social-list">
               <li class="resume__social-item">
-                <a href="" class="resume__social-link" target="_blank"
-                  >Telegram</a
-                >
-              </li>
-              <li class="resume__social-item">
-                <a href="" class="resume__social-link" target="_blank"
+                <a
+                  href="https://www.linkedin.com/in/dmytro-samoylenko-b1a81525a/"
+                  class="resume__social-link"
+                  target="_blank"
                   >LinkedIn</a
                 >
+                <svg class="resume__social-icon">
+                  <use href="./img/icons.svg#linkedin"></use>
+                </svg>
               </li>
               <li class="resume__social-item">
-                <a href="" class="resume__social-link" target="_blank"
+                <a
+                  href="https://github.com/dmytrik"
+                  class="resume__social-link"
+                  target="_blank"
                   >GitHub</a
                 >
+                <svg class="resume__social-icon">
+                  <use href="./img/icons.svg#github"></use>
+                </svg>
               </li>
               <li class="resume__social-item">
-                <a href="" class="resume__social-link" target="_blank"
+                <a
+                  href="https://www.instagram.com/samojlenkodmitry/"
+                  class="resume__social-link"
+                  target="_blank"
                   >Instagram</a
                 >
+                <svg class="resume__social-icon">
+                  <use href="./img/icons.svg#instagram"></use>
+                </svg>
               </li>
               <li class="resume__social-item">
-                <a href="" class="resume__social-link" target="_blank"
+                <a
+                  href="https://www.facebook.com/dmitry.samojlenko"
+                  class="resume__social-link"
+                  target="_blank"
                   >Facebook</a
                 >
+                <svg class="resume__social-icon">
+                  <use href="./img/icons.svg#facebook"></use>
+                </svg>
               </li>
             </ul>
           </li>
