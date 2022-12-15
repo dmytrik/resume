@@ -222,7 +222,8 @@ a {
   font-size: 14px;
   line-height: 18px;
 }
-.resume__tech-skills {
+.resume__tech-skills,
+.resume__soft-skills {
   margin-top: 30px;
 }
 .resume__tech-skills-list {
@@ -280,6 +281,10 @@ a {
     color: #fff;
     background-color: #000;
   }
+}
+.resume__project-link--code {
+  font-size: 12px;
+  line-height: 14px;
 }
 .resume__project-desc {
   font-size: 18px;
