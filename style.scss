@@ -101,6 +101,7 @@ a {
   }
 }
 .resume__primary-title {
+  margin-top: 30px;
   font-size: 40px;
   line-height: 50px;
   @media screen and (max-width: 499px) {
@@ -118,7 +119,6 @@ a {
   }
 }
 .resume__img-box {
-  margin-top: 30px;
   @media screen and (max-width: 499px) {
     width: 250px;
     height: 250px;
