@@ -263,6 +263,12 @@ a {
     line-height: 22px;
   }
 }
+
+.resume__information-desc-box {
+  display: flex;
+  justify-content: space-around;
+}
+
 .resume__project {
   margin-top: 30px;
 }
